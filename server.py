@@ -12,7 +12,7 @@ port = 3004
 s.bind(("", port))
 
 # Putting the socket into listening mode
-s.listen(5)
+s.listen(1)
 print("Socket in listening mode.")
 
 # Process placed inside a loop until there is an interruption, i.e. error
@@ -22,7 +22,7 @@ while True:
     print("Connection established from", address)
 
 #     Sending a message to the client, encoding to send byte type
-    c.send("Thank you for connecting".encode())
+    c.send("George Russell WDC 2022".encode())
     c.close()
 
     break
