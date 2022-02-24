@@ -14,4 +14,4 @@ print(s.recv(1024).decode())
 
 # Closing the connection
 s.close()
-print("Connection closed")
+print("Connection closed.")

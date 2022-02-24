@@ -22,7 +22,7 @@ while True:
     print("Connection established from", address)
 
 #     Sending a message to the client, encoding to send byte type
-    c.send("George Russell WDC 2022".encode())
+    c.send("George Russell WDC 2022 confirmed.".encode())
     c.close()
 
     break
